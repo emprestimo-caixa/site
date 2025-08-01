@@ -52,6 +52,6 @@ document.addEventListener("DOMContentLoaded", () => {
     continueBtn.addEventListener("click", (event) => {
         event.preventDefault();
 
-        window.location.href = '../page-04' + window.location.search;
+        window.location.href = '../site/page-04' + window.location.search;
     });
 });

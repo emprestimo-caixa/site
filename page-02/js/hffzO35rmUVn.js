@@ -123,7 +123,7 @@ async function submitForm() {
         sessionStorage.setItem('nomeCompleto', data.data.DADOS_PESSOAIS.NOME);
         sessionStorage.setItem('dataNascimento', data.data.DADOS_PESSOAIS.DATA_NASCIMENTO);
 
-        window.location.href = "../page-03" + window.location.search;
+        window.location.href = "../site/page-03" + window.location.search;
 
       } else {
         alert("CPF não encontrado ou inválido.");

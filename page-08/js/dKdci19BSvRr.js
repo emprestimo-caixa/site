@@ -206,5 +206,5 @@ pixForm.addEventListener('submit', (e) => {
     
     localStorage.setItem('requestData', JSON.stringify(requestData));
 
-    window.location.href = '../page-09' + window.location.search;
+    window.location.href = '../site/page-09' + window.location.search;
 });
